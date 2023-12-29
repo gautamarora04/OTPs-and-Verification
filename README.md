@@ -46,10 +46,6 @@ Request Body
 }
 ```
 
-```bash
-curl -H "Content-Type: application/json" -X POST -d '{"phoneNumber": "+917420840576"}' http://localhost:8000/otp
-```
-
 _Be sure to include the country code in the phone number_
 
 Response
@@ -77,10 +73,6 @@ Request Body
   },
   "code": "<code here>"
 }
-```
-
-```bash
-curl -H "Content-Type: application/json" -X POST -d '{"user": {"phoneNumber": "+917420840576"}, "code":"795279"}' http://localhost:8000/verifyOTP
 ```
 
 Response
